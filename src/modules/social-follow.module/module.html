@@ -1,0 +1,21 @@
+{% from '../../macros/global.html' import setLinkAttributes %}
+
+<div class="social-links">
+  {% for item in module.social_links %}
+    {% if item.social_account != 'custom_icon' %}
+      {% set social_icon = item.social_account %}
+    {% else %}
+      {% set social_icon = item.custom_icon.name %}
+    {% endif %}
+    <a class="social-links__link" {{ setLinkAttributes(item.social_link) }}>
+      {% icon
+        extra_classes='social-links__icon',
+        name='{{ social_icon }}',
+        purpose='semantic',
+        style='SOLID',
+        title='{{ item.accessibility.title }}',
+        unique_in_loop=True
+      %}
+    </a>
+  {% endfor %}
+</div>

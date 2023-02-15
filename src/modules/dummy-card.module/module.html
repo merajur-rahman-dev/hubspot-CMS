@@ -1,0 +1,11 @@
+{% from '../../macros/global.html' import setLinkAttributes %}
+
+<div class="dummy-card">
+  <div class="dummy-card__title">
+    <h4>{{module.title}}</h4>
+    <p>{{module.description}}</p>
+    <a class="social-links__link" {{ setLinkAttributes(module.link) }}>
+      {{module.link_text}}
+    </a>
+  </div>
+</div>

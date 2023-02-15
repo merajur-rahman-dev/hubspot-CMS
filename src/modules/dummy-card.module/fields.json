@@ -1,0 +1,49 @@
+[
+  {
+    "name": "title",
+    "label": "Title",
+    "required": false,
+    "locked": false,
+    "validation_regex": "",
+    "allow_new_line": false,
+    "show_emoji_picker": false,
+    "type": "text",
+    "default": "Lorem ipsum"
+  },
+  {
+    "name": "description",
+    "label": "Description",
+    "required": false,
+    "locked": false,
+    "type": "richtext",
+    "default": "<p><span>Dolere malum est: in crucem qui agitur, beatus esse non potest. Stuprata per vim Lucretia a regis filio testata civis se ipsa interemit. Quorum altera prosunt, nocent altera.</span></p>"
+  },
+  {
+    "name": "link_text",
+    "label": "Link Text",
+    "required": false,
+    "locked": false,
+    "validation_regex": "",
+    "allow_new_line": false,
+    "show_emoji_picker": false,
+    "type": "text",
+    "default": "Click me"
+  },
+  {
+    "name": "link",
+    "label": "Link",
+    "required": false,
+    "locked": false,
+    "supported_types": ["EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG"],
+    "type": "link",
+    "default": {
+      "url": {
+        "type": "EXTERNAL",
+        "href": "",
+        "content_id": null
+      },
+      "open_in_new_tab": false,
+      "no_follow": false
+    }
+  }
+]

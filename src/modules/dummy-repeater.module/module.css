@@ -1,0 +1,18 @@
+.dummy-repeater__icon{
+    display: inline-block;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: var(--primary-color);
+    padding: 15px;
+}
+
+.dummy-repeater__icon svg{
+    fill: var(--secondary-color);
+    height: auto;
+    width: 100%;
+}
+
+.dummy-repeater__title{
+    margin: 15px;
+}

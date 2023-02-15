@@ -1,0 +1,5 @@
+.single-module .row > div{
+  border: 1px dashed burlywood;
+  border-radius: 5px;
+  padding: 10px;
+}

@@ -1,0 +1,19 @@
+<div class="dummy-repeater">
+  <div class="row">
+    {% for card in module.cards %}
+    <div class="col-4 text-center">
+
+      {% icon     
+        extra_classes='dummy-repeater__icon',
+        name='{{ card.icon.name }}',
+        style='{{card.type}}',
+        title='{{ card.icon.name }} icon',
+        unique_in_loop=True
+      %}
+
+      <h4 class="dummy-repeater__title">{{loop.index}}-{{card.title}}</h4>
+      <p>{{card.description}}</p>
+    </div>
+    {% endfor %}
+  </div>
+</div>

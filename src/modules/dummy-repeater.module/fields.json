@@ -1,0 +1,85 @@
+[
+  {
+    "id": "da8b23fe-94bb-e82e-d636-c9c25a7f33e9",
+    "name": "cards",
+    "label": "Cards",
+    "required": false,
+    "locked": false,
+    "occurrence": {
+      "min": 1,
+      "max": 3,
+      "sorting_label_field": null,
+      "default": 3
+    },
+    "children": [
+      {
+        "id": "c50ba311-f844-ebf3-8b1b-b3b8d35bac82",
+        "name": "icon",
+        "label": "Icon",
+        "required": false,
+        "locked": false,
+        "type": "icon",
+        "default": {
+          "name": "star",
+          "unicode": "f005",
+          "type": "SOLID"
+        }
+      },
+      {
+        "id": "e6ea92b5-f9bf-8473-0720-479fdab544e1",
+        "name": "title",
+        "label": "Title",
+        "required": false,
+        "locked": false,
+        "validation_regex": "",
+        "allow_new_line": false,
+        "show_emoji_picker": false,
+        "type": "text",
+        "default": "Lorem Ipsum"
+      },
+      {
+        "id": "12958b0a-b901-94d0-1e69-88661dbf4ba9",
+        "name": "description",
+        "label": "Description",
+        "required": false,
+        "locked": false,
+        "validation_regex": "",
+        "allow_new_line": false,
+        "show_emoji_picker": false,
+        "type": "text",
+        "default": "Qui enim existimabit posse se miserum esse beatus non erit. Tu enim ista lenius, hic Stoicorum more nos vexat. Itaque his sapiens semper vacabit. Quae cum praeponunt, ut sit aliqua rerum selectio, naturam videntur sequi"
+      }
+    ],
+    "tab": "CONTENT",
+    "type": "group",
+    "default": [
+      {
+        "icon": {
+          "name": "star",
+          "unicode": "f005",
+          "type": "SOLID"
+        },
+        "title": "Lorem Ipsum",
+        "description": "Qui enim existimabit posse se miserum esse beatus non erit. Tu enim ista lenius, hic Stoicorum more nos vexat. Itaque his sapiens semper vacabit. Quae cum praeponunt, ut sit aliqua rerum selectio, naturam videntur sequi"
+      },
+      {
+        "icon": {
+          "name": "star",
+          "unicode": "f005",
+          "type": "SOLID"
+        },
+        "title": "Lorem Ipsum",
+        "description": "Qui enim existimabit posse se miserum esse beatus non erit. Tu enim ista lenius, hic Stoicorum more nos vexat. Itaque his sapiens semper vacabit. Quae cum praeponunt, ut sit aliqua rerum selectio, naturam videntur sequi"
+      },
+      {
+        "icon": {
+          "name": "star",
+          "unicode": "f005",
+          "type": "SOLID"
+        },
+        "title": "Lorem Ipsum",
+        "description": "Qui enim existimabit posse se miserum esse beatus non erit. Tu enim ista lenius, hic Stoicorum more nos vexat. Itaque his sapiens semper vacabit. Quae cum praeponunt, ut sit aliqua rerum selectio, naturam videntur sequi"
+      }
+    ]
+  }
+]
